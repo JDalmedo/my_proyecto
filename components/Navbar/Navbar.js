@@ -17,7 +17,7 @@ if (themeBtn.innerText === "☀") {
 };
 export const Navbar = () => `
 <nav>
-<h2>Peter Parker</h2>
+<h2>Juanjo Dalmedo</h2>
 <ul>
   <li>
       <a href="#" id="homelink">Home</a>
