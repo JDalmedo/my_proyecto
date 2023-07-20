@@ -9,6 +9,6 @@ export const Home = () => {
    <p>Hey, I'm</p>
    <h1>Juanjo Dalmedo</h1>
    <p>I'm a software engineer based in Madrid, Spain and also a communication and journalism student. I enjoy creating things that
-   <a href="mailto:JuanjoDalmedo@gmail.com">Say hi →</a>
+   <a href="jjdalmedo@gmail.com">Say hi →</a>
    </section>`;
 };
