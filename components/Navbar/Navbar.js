@@ -5,29 +5,29 @@ export const changeTheme = () => {
   themeBtn.addEventListener("click", () => {
    document.body.classList.toggle("light");
     changeText();
-});
+  });
 };
 export const changeText = () => {
-const themeBtn = document.querySelector("#themeBtn");
-if (themeBtn.innerText === "☀") {
+  const themeBtn = document.querySelector("#themeBtn");
+  if (themeBtn.innerText === "☀") {
     themeBtn.innerText = "☾";
-} else {
+  } else {
   themeBtn.innerText = "☀";
-}
+  }
 };
 export const Navbar = () => `
-<nav>
-<h2>Juanjo Dalmedo</h2>
-<ul>
-  <li>
+ <nav>
+   <h2>Juanjo Dalmedo</h2>
+   <ul>
+     <li>
       <a href="#" id="homelink">Home</a>
-  </li>
-  <li>
+     </li>
+     <li>
       <a href="#" id="projectslink">Projects</a>
-  </li>
-  <li>
+     </li>
+     <li>
       <button id="themeBtn">☀</button>
-  </li>
-</ul>
-</nav>
+     </li>
+   </ul>
+ </nav>
 `;

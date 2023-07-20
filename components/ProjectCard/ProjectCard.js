@@ -1,5 +1,4 @@
 import "./ProjectCard.css";
-
 export const ProjectCard = (project) => `
 <div class="project-card">
 <img src=${project.image} alt=${project.title}/>
@@ -7,7 +6,7 @@ export const ProjectCard = (project) => `
 <h2>${project.title}</h2>
 <div>
 <a href=${project.github}>
-<img src="/icons/github.png" alt="GitHub Icon" />
+<img src="/icons/github.png/" alt="GitHub Icon" />
 </a>
 <a href=${project.link}>
 <img src="/icons/link.png" alt="Link icon" />
