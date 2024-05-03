@@ -1,11 +1,11 @@
 export const projects = [
     {
-        title: "Primer proyecto",
-        description: "Una aplicación donde aparecen diferentes barcos",
-        image:"/imgs/fragata.png",
-        tech: ["HTML5", "CSS3",],
-        github: "https://github.com/JDalmedo/barcos.git",
-        link: "",
+        title: "Color-flipper",
+        description: "Una aplicación para cambiar el color de un elemento",
+        image:"/imgs/color-flipper.png",
+        tech: ["HTML5", "CSS3", "JavaScript"],
+        github: "https://github.com/JDalmedo/color-flipper",
+        link: "https://color-flipper-two.vercel.app/",
     },
     {
         title: "Foto del día NASA",
@@ -20,8 +20,8 @@ export const projects = [
         description: "Bueno, aquí hay un proyecto que te permite buscar cualquier Pokémon",
         image:"/imgs/pikachu.png",
         tech: ["React", "HTML5", "CSS3", "JavaScript"],
-        github: "https://github.com/JDalmedo/my_proyecto",
-        link: "https://vercel.com/dashboard",
+        github: "https://github.com/JDalmedo/Pokedex",
+        link: "https://pokedex-ten-liart.vercel.app/",
     },
     {
         title: "Mi aplicación",
