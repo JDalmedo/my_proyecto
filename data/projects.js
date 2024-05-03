@@ -31,7 +31,14 @@ export const projects = [
         github: "https://github.com/JDalmedo/aplicacion.git",
         link: "https://appdalmedo.vercel.app/",
     },
-    
+    {
+        title: "InclusiveMarket",
+        description: "Una tienda online creada entre cuatro compañeros como proyecto final.",
+        image:"/imgs/ortopedia.png",
+        tech: ["React", "HTML5", "CSS3", "JavaScript"],
+        github: "https://github.com/JDalmedo/proyectofinal02",
+        link: "https://inclusivemarket.vercel.app/",
+    },
        
     
 ];
