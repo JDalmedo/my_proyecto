@@ -1,0 +1,52 @@
+.contact {
+    padding: 0 8rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+@media (max-width: 700px) {
+.contact {
+    padding: 0 2rem;
+    }
+}
+.contact > h3 {
+    font-size: 2.5rem;
+    background: aliceblue;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact > a {
+    font-size: 1.5rem;
+}
+label {
+    display: flex;
+    text-align: right;
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+  
+input, textarea {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+}
+textarea {
+    vertical-align: top;
+    height: 80px;
+}
+.btn {
+    margin-top: 7px;
+    height: 25px;
+    width: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
