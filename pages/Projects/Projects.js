@@ -1,6 +1,6 @@
 import "./Projects.css";
 import { cleanPage } from "../../utils/cleanPage";
-import { projects } from "../../data/projects";
+import { projects } from "../../data/projects.1";
 import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
 import { Divider } from "../../components/Divider/Divider";
 
